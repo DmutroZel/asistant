@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.wrap {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.asistantButton {
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    
+}
+
+.asistantButton:hover {
+    transform: scale(1.1);
+}
+
+.asistantButton i {
+    color: #fff;
+}
+
+.asistantPreview {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    box-shadow: 0 0 5px #999;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 150px;
+    right: 100px;
+}
+
+.asistantPreview i {
+    margin-right: 10px;
+}
+
+.previewItem {
+    width: 100%;
+    padding: 10px;
+}
+
+.previewItem:hover {
+    background-color: #eee;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.messageP{
+    background-color: white;
+    box-shadow: 0 0 5px #999;
+    border-radius: 20px;
+    width: 300px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 150px;
+}
+
+.messageContainer{
+    width: 300px;
+    min-height: 350px;
+    
+}
+
+.messageDo{
+    box-shadow: 0 0 5px #999;
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    
+}  
+.messageItem{
+    box-shadow: 0 0 5px #999;
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;
+    padding: 5px 5px;
+    margin: 10px 0;
+    display: flex;
+
+
+}
+.messageItem span{
+    font-size: 12px; 
+}
+
+#message{
+    width: 230px;
+    height: 50px;
+    border-radius: 0 0 0 20px;
+    border: none;
+    outline: none;
+    background-color: gainsboro;
+    box-shadow: 0 0 5px #999;
+    font-size: 16px;
+}
+#send{
+    width: 70px;
+    height: 50px;
+    border-radius: 0 0 20px 0;
+    border: none;
+    outline: none;
+    background-color: gainsboro;
+    box-shadow: 0 0 5px #999;
+
+}
