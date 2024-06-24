@@ -30,12 +30,11 @@ $('#tg').click(function () {
     $('.asistantPreview').slideUp(500); 
     window.location.href = 'https://creator-it-academy.com/';
 })
-
-$('#inst').click(function () {
-    $('.asistantPreview').slideUp(500); 
-    window.location.href = 'https://www.youtube.com/watch?v=xvFZjo5PgG0';
-})
 $('#gt').click(function () {
     $('.asistantPreview').slideUp(500); 
     window.location.href = 'https://github.com/DmutroZel/asistant';
+})
+$('#inst').click(function () {
+    $('.asistantPreview').slideUp(500); 
+    window.location.href = 'https://www.youtube.com/watch?v=xvFZjo5PgG0';
 })
